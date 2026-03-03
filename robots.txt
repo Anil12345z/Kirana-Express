@@ -1,0 +1,75 @@
+# robots.txt for Kirana Express
+# Allow all crawlers including AI bots
+
+# Standard search engine bots
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# AI crawlers — GPTBot (OpenAI), Claude (Anthropic), Gemini (Google)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Gemini-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# Facebook
+User-agent: facebookexternalhit
+Allow: /
+
+# WhatsApp link preview
+User-agent: WhatsApp
+Allow: /
+
+# Allow everything for everyone
+User-agent: *
+Allow: /
+
+# Block only netlify functions from being crawled
+Disallow: /.netlify/
+
+# Sitemap
+Sitemap: https://kiranaexpress.netlify.app/sitemap.xml
+
+# Host
+Host: kiranaexpress.netlify.app

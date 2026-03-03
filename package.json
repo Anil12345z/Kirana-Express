@@ -1,0 +1,8 @@
+{
+  "name": "kirana-express",
+  "version": "2.0.0",
+  "description": "Kirana Express - Pre-order grocery store",
+  "dependencies": {
+    "nodemailer": "^6.9.13"
+  }
+}
