@@ -69,7 +69,7 @@ Allow: /
 Disallow: /.netlify/
 
 # Sitemap
-Sitemap: https://kiranaexpress.netlify.app/sitemap.xml
+Sitemap: https://apkakirana.netlify.app/sitemap.xml
 
 # Host
-Host: kiranaexpress.netlify.app
+Host: apkakirana.netlify.app
