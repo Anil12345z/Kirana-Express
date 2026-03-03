@@ -4,12 +4,12 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <url>
-    <loc>https://kiranaexpress.netlify.app/</loc>
+    <loc>https://apkakirana.netlify.app/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://kiranaexpress.netlify.app/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://kiranaexpress.netlify.app/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://apkakirana.netlify.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apkakirana.netlify.app/"/>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1542838132-92c53300491e?w=1200&amp;h=630&amp;fit=crop</image:loc>
       <image:title>Kirana Express - Pre-Order Grocery Store</image:title>
@@ -18,7 +18,7 @@
   </url>
 
   <url>
-    <loc>https://kiranaexpress.netlify.app/#products</loc>
+    <loc>https://apkakirana.netlify.app/#products</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
