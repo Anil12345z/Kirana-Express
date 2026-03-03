@@ -23,7 +23,7 @@ exports.handler = async (event) => {
   }
 
   // Secret code validation
-  const validCode = process.env.SECRET_CODE || 'ORDER2026';
+  const validCode = process.env.SECRET_CODE;
   if (data.secretCode !== validCode) {
     return { statusCode: 403, headers, body: JSON.stringify({ error: 'Invalid secret code. Please ask the store owner for the correct code.' }) };
   }
@@ -41,9 +41,9 @@ exports.handler = async (event) => {
     </tr>
   `).join('');
 
-  const ownerPhone = process.env.OWNER_PHONE || '8529488194';
-  const storeName = process.env.STORE_NAME || 'Kirana Express';
-  const storeAddress = process.env.STORE_ADDRESS || 'Your Baiman , kiraoli, Agra , Uttar pradesh 283122';
+  const ownerPhone = process.env.OWNER_PHONE ;
+  const storeName = process.env.STORE_NAME ;
+  const storeAddress = process.env.STORE_ADDRESS;
 
   // ---- OWNER EMAIL HTML ----
   const ownerEmailHTML = `
@@ -322,7 +322,7 @@ exports.handler = async (event) => {
   });
 
   try {
-    const ownerEmail = process.env.OWNER_EMAIL || 'chaharanil568@gmail.com';
+    const ownerEmail = process.env.OWNER_EMAIL ;
 
     // Send to owner
     await transporter.sendMail({
